@@ -33,6 +33,8 @@ class main {
 
         $commandCount = count( $commandParts );
 
+        $command = strtolower( $commandParts[ 0 ] );
+
         if( $commandCount > 2 ) :
             $arguments = '';
             for( $i = 1; $i <= $commandCount; ++$i ) :
@@ -42,7 +44,7 @@ class main {
             $arguments = $commandParts[ 1 ];
         endif;
 
-        $this->command = $commandParts[ 0 ];
+        $this->command = $command;
         $this->arguments = $arguments;
     }
 
