@@ -7,10 +7,7 @@ Usage
 ===============
 1. Create a twitter account
 2. Set up the twitter account and an email in index.php
-3. Add something like this to your cron
-<pre>
-* *     * * * root lynx -dump http://www.example.com/path/to/bot >/dev/null 2>&1
-</pre>
+3. Add something like this to your cron<pre>* *     * * * root lynx -dump http://www.example.com/path/to/bot >/dev/null 2>&1</pre>
 4. Tweet the command you want to run separated by a space for additional arguments
 
 Extending
