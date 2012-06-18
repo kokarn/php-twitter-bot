@@ -19,3 +19,10 @@ Todo
 * Force specific functions to be present in the modules by class inheritance
 * Better syntax for commands
 * Extend command functionality to allow commands over multiple tweets
+
+Ideas for extensions
+===============
+* PreDB lookup
+* People lookup
+* Ping function
+* Whatever seems like a fun idea
